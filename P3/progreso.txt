@@ -1,0 +1,13 @@
+﻿---> Clase Numero: 👍
+---> Clase Pedido: 👍
+---> Clase LineaPedido: 👍
+---> Clase Pedido_Articulo: 👍
+---> Clase Usuario_Pedido: 👍
+
+
+Apuntes:
+    ---> Para insertar en un map que pueda ser así: std::map<Objeto1(*), Objeto2(*), Objeto3(*)> o std::map<Objeto1*, std::pair<Objeto2*, Objeto3> >
+        nombre_de_map_as_dir[&objetoPrimero_asociacion_directa].insert(std::make_pair(&objeto2_asociacion_directa, &objeto3_as_directa));
+        nombre_de_map_as_inv[&objetoPrimero_asociacion_inversa].insert(std::make_pair(&objeto2_asociacion_inversa, &objeto3_as_inversa));
+
+    --->
